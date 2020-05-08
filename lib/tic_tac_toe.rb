@@ -26,7 +26,9 @@ def input_to_index(input) # code your input_to_index and move method here!
 end
 
 def move(index, token = X)
-  @board[index] = token
+  board = @board[index]
+
+  board = token 
 end
 
 def position_taken?(board,index) # code your #position_taken? method here!
