@@ -27,7 +27,6 @@ end
 
 def move(index, token = X)
   board = @board[index]
-
   board = token 
 end
 
